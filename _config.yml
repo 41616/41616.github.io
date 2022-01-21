@@ -301,7 +301,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     document.getElementById("run_time_hour"),
                     document.getElementById("run_time_minute"),
                     document.getElementById("run_time_second"),
-                    08/15/2021 11:03:56")// 这是我第一篇小剧场的时间
+                    08/15/2021 16:00:00")// 这是我第一篇小剧场的时间
                   </script>
                 </div>
               - | # 不蒜子页面统计，看不懂可不改
@@ -349,7 +349,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   </a>
                 </div>
             wordcount: # 全站字数统计
-              enable: false # 本地调试时建议关闭，非常影响站点生成速度（所需时间与博文数量的平方成正比）
+              enable: true # 本地调试时建议关闭，非常影响站点生成速度（所需时间与博文数量的平方成正比）
               prepend: <i class="fas fa-user-edit fa-fw"></i>
               kilo: 千
               unit: 字
@@ -612,8 +612,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 var paypal = "https://paypal.me/wukan0621";
                 var multilingual = false;
                 var branding = false;
-                var title = "选择你的支付方式";
-                var subtitle = "跟随进一步的指示以向" + myname + "付款";
+                var title = "never选择你的支付方式，还没配置好！";
+                var subtitle = "不要跟随进一步的指示，否则你会向" + myname + "付款！下面的图标一个都别点！";
                 var qrcodeapi = "https://www.zhihu.com/qrcode?url=";
                 var gravatar_url = "https://gravatar.loli.net/avatar/";
               </script>
