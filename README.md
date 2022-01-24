@@ -4,7 +4,7 @@
 
 <!-- .slide -->
 
-# 更新记录
+## 更新记录
 
 <!-- .slide vertical=true -->
 
