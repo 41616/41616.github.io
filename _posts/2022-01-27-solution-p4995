@@ -6,3 +6,30 @@ title: 洛谷P4997跳跳 题解
 让我们来看看写着AK的电脑是怎么解决的
 
 来回跳，设所有石头排序之后高度是h_0,h_1,h_2...h_{n-1}，就按照0->h_{n-1}->h_0->h_{n-2}->h_1来跳
+
+就这？
+
+就这。
+
+等等忘记贴代码了
+
+```cpp
+#include<iostream>
+#include<algorithm>
+using namespace std;
+int h[304];
+inline int sq(int x){return x*x;}
+int main(){
+	int n;long long ans=0;cin>>n;
+	for(int i=1;i<=n;i++)cin>>h[i];
+	sort(h,h+n+1);
+	int l=0,r=n;
+	while(l<r){
+		ans+=sq(h[r]-h[l]);
+		l++;
+		ans+=sq(h[r]-h[l]);
+		r--;
+	}
+	cout<<ans<<endl;
+}
+```
