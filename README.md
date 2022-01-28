@@ -1,6 +1,7 @@
 # 41616's blog
 
 看小剧场请至这个[Link](https://41616.github.io/archive)
+或点击侧边栏进入归档
 
 <!-- .slide -->
 
