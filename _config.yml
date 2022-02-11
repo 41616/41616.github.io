@@ -1,13 +1,5 @@
 title: 41616 # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
-  Err...这是我第3个blog，前两个都坏了QwQ<br/>
-  <a href="yuzhiyuansh@hotmail.com">
-    <i class="fas fa-envelope"></i>
-  </a>
-  <a href="https://github.com/41616">
-    <i class="fab fa-github"></i>
-  </a>
-  <br/>
   <iframe
     src="https://music.163.com/outchain/player?type=2&id=1397226690&auto=0&height=32"
     width=100%
@@ -17,6 +9,14 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     marginwidth="0"
     marginheight="0"
   ></iframe>
+  Err...这是我第3个blog，前两个都坏了QwQ<br/>
+  <a href="yuzhiyuansh@hotmail.com">
+    <i class="fas fa-envelope"></i>
+  </a>
+  <a href="https://github.com/41616">
+    <i class="fab fa-github"></i>
+  </a>
+  <br/>
 url: https://41616.github.io # 你的域名，例如 https://wu-kan.github.io
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
