@@ -1,10 +1,18 @@
 # 41616's blog
 
-看小剧场请至这个[Link](https://41616.github.io/archive)。如果你想看其他内容，请点击[这里](https://41616.github.io/all-posts/)。
+看小剧场请至这个[Link](/archive)。如果你想看其他内容，请点击[这里](/all-posts)。
+
+[各种2048](/2048-games)！
 
 <!-- .slide -->
 
 ## 更新记录
+
+<!-- .slide vertical=true -->
+
+### v1.3 (Jun 16 2022)
+
+增设2048。
 
 <!-- .slide vertical=true -->
 
