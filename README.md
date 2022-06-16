@@ -2,7 +2,7 @@
 
 看小剧场请至这个[Link](/archive)。如果你想看其他内容，请点击[这里](/all-posts)。
 
-[各种2048](/2048-games)！
+[各种2048](/2048-games/list.html)！
 
 <!-- .slide -->
 
