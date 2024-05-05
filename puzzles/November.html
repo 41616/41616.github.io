@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>November</title>
+		<title id="title">November</title>
 	</head>
 	<body>
 		<div style="margin-left:35px;font-family:simsun;">
@@ -15,9 +15,11 @@
 		<script type="text/javascript">
 			var role=0;
 			var div=document.getElementById("div");
+			var title=document.getElementById("title");
 			var open_box=0;
 			var have_key_f1=0;
 			function login_1(){
+				title.innerHTML="登录到November";
 				div.innerHTML="你需要先登录内测人员账号以继续使用。<br><br><input id='username' type='text' placeholder='用户名' name='username'/><br><input id='password' type='password' placeholder='密码' name='password'/><br><button id='login' onclick='check();'>登录</button><br><br>注意：为了防止非内测人员盗用你的账号，你每次刷新都需要重新登录。";
 			}
 			function check(){
@@ -27,7 +29,7 @@
 				else if(usrname=="liuguanqi"&&paswod=="20090423")start();
 				else if(usrname=="wangruolan"&&paswod=="20090825")start();
 				else if(usrname=="caiyufei"&&paswod=="20080910")start();
-				else if(usrname=="maoruijie"&&paswod=="")start();
+				else if(usrname=="mrj114514"&&paswod=="1919810")start();
 				else if(usrname=="zhoujinqi"&&paswod=="20081126")start();
 				else if(usrname=="fdfzmars"&&paswod=="zhang090410")start();
 				else if(usrname=="yinyicheng"&&paswod=="20081218")start();
@@ -37,11 +39,9 @@
 				div.innerHTML="登录成功，游戏开始。<br><br>请选择你（想当的角色）的性别：<br><button onclick='role_f()'>1.女性</button><br><button onclick='role_m()'>2.男性</button>";
 			}
 			function role_f(){
-				role=1;
 				div.innerHTML="你的角色是许仪青。你有一个男朋友叫奚子诺，你们还没住在一起，但你们互相知道对方的住址。<br><br><button onclick='f_c1_l1()'>继续</button>";
 			}
 			function role_m(){
-				role=2;
 				div.innerHTML="你的角色是奚子诺。<br><br><button onclick='m_c1_l1()'>继续</button>";
 			}
 			function f_c1_l1(){
@@ -50,7 +50,7 @@
 				div.innerHTML="第一章：11月24日<br><br>今天是奚子诺的生日，你打算给他做一个蛋糕。<br><br>你拿出了纸质版蛋糕制作教程，并从一个编号为1178的柜子里拿出了面粉、鸡蛋之类的食材。<br><br>过了一会儿，一个蛋糕制作完毕。<br><br>然而，你发现这个蛋糕似乎太单调了，缺了点什么东西来装饰它。<br><br>这时，你又重新拿起了教程，发现它的背面还有这样一行字：<br><br><div style='background-color:#f0f0f0;font-family:consolas;'>DATE S 11 25</div><br>你心想：Dates是红枣的意思，说不定1125号柜子里有红枣？<br><br>你选择：<br><button onclick='f_c1_1()'>1.打开1125号柜</button><br><button onclick='f_c1_2()'>2.不打开1125号柜</button>";
 			}
 			function f_c1_l2(){
-				div.innerHTML="接着，你拿上蛋糕，去了奚子诺家，按了一下门铃。<br><br>没人开门。<br><br>过了10秒，你又按了一下门铃，但还是没人开门。<br><br>这时，你决定给奚子诺发一条消息：<br><br>“甜心，你在家吗？我在你家门口，给我开个门呗~”<br><br>没有回复。<br><br>过了15分钟，你终于收到了来自奚子诺的一条消息：<br><br>“你是谁啊？”<br><br>你震惊了。你心想：奚子诺到底是装作失忆了还是真的失忆了？<br><br>于是，你又给他发了一条消息：“我是你女朋友啊，你忘了吗？”<br><br>“好吧……我真的忘了。”<br><br>接着，奚子诺把门开了一条缝，停顿了一下，然后把门完全打开。<br><br>你走了进去，对他说：“宝贝，我是许仪青，你真的忘了吗？”<br><br>“真的。”奚子诺说。<br><br>“那好，今天是11月24日，是什么特殊的日子？”<br><br>“不知道。”<br><br>“今天是你的生日啊！你看，我还特地给你做了个蛋糕，虽然简单了点。”你迫不及待地对奚子诺说。<br><br>“哦，是吗？”他回答说。<br><br>你心想：看来奚子诺是真的失忆了。<br><br>于是你对他说：“不用太着急，宝贝。你虽然失忆了，但一般情况下，知识和技能是不容易被忘记的。”<br><br>奚子诺眼前一亮。<br><br>继续说：“你可能真的忘了我，但你不会忘记你学过的东西。我并没有忘记你——看，赶紧把蛋糕吃了。”<br><br>你又指了指奚子诺还没拆开的蛋糕。<br><br><button onclick='f_c1_l3()'>继续</button>";
+				div.innerHTML="随后，你怀抱精心准备的蛋糕，步入夜色，迈向奚子诺的居所。门铃响起，如同深夜幽灵的轻吟，在静谧中回荡，却未唤醒丝毫回应。<br><br>十秒流逝，再度按下门铃，那金属按钮下隐藏的希望之光，似乎也随着周遭的沉寂一同黯淡，无果。<br><br>一股不安开始在心中悄然蔓延，你掏出手机，指尖跳跃，发出信息：“亲爱的，你藏在屋内哪个角落呢？我正站在门外，渴望你的笑容照亮这夜色~”<br><br>然而，屏幕如深海般沉默，没有半点波澜。<br><br>十五分钟，漫长得如同世纪更迭，手机屏幕终闪现回复，却似寒风中一抹不祥的预兆：“你是谁？”<br><br>那一刻，震惊如电流窜遍全身，心头涌上千百种猜想：奚子诺，这是你精心设计的恶作剧，还是命运残酷的玩笑？<br><br>你迅速敲击键盘，字句间夹杂着一丝不易察觉的颤抖：“我是许仪青，你的爱人，难道这一切都已随风而逝？”<br><br>片刻之后，屏幕上的回答冷酷而简短：“或许，我真的迷失在了过往的迷雾中……”<br><br>门缓缓开启，缝隙中透出昏黄灯光，像古老宅邸中幽幽鬼火，短暂的停滞，随后，世界豁然开朗，却弥漫着陌生的气息。<br><br>踏入门槛，你轻声呼唤：“亲爱的，我是许仪青，难道我在你的世界里，真的消失得无影无踪了吗？”<br><br>“抱歉，我真的想不起。”奚子诺的话语，冷淡如冬夜的风。<br><br>“那么，让我提醒你，今日是11月24日，一个不应被遗忘的日子。”你迫切地试图点燃他心中的记忆之烛。<br><br>“这一天，有何特别？”他的疑问，如同深渊的回音，空洞而遥远。<br><br>“今天，是你的生辰，我亲手为你烘焙了爱的甜蜜，虽不华丽，却满载情感。”你指向那未拆封的蛋糕，仿佛那是通往过往记忆的唯一线索。<br><br>“原来如此。”他淡淡回应，眼神中却无半点波澜。<br><br>内心的忧虑如暗流涌动，你强作镇定，安慰道：“别急，亲爱的。即使记忆的潮水将你卷走，那些根深蒂固的知识与技能，依旧牢牢刻印在你的灵魂深处。而我，从未离开你的世界——请看看这份为你而做的蛋糕，即便它朴素无华。”<br><br>蛋糕上摇曳的烛光，在昏暗的房间中跳跃，像是希望的微光，在这片被遗忘的领域里，静静等待着复苏的奇迹。<br><br><button onclick='f_c1_l3()'>继续</button>";
 			}
 			function f_c1_l3(){
 				if(open_box==2){
@@ -84,18 +84,20 @@
 				div.innerHTML="你选择了不管这把钥匙，然后拿出了六七个红枣，并把每个红枣竖着切成两半，又把枣核挖掉，然后仔细地把它们放在蛋糕上面，摆了一个爱心。最后，你把蛋糕装进了盒子里。<br><br><button onclick='f_c1_l2()'>继续</button>";
 			}
 			function m_c1_l1(){
+				title.innerHTML="第一章：11月24日";
 				div.innerHTML="第一章：11月24日<br><br>你起床的时候，已经是下午了。你看着你墙上贴着的Moto X3M宣传海报，脑子一片空白。<br><br>过了一会儿，门铃突然响了。出于戒备心理，你没有开门。<br><br>又过了10秒，门铃再次响起。你仍然没有开门。<br><br>这时，你的电脑发出了微信的提示音。<br><br>你打开电脑，想看是谁给你发了什么消息。<br><br><button onclick='m_c1_l2()'>继续</button>";
 			}
 			function m_c1_l2(){
-				div.innerHTML="然而，你发现你把密码给忘了。只有一个提示：<br><br><div style='background-color:#f0f0f0;font-family:consolas;'>6-m3x-otom</div><br><input id='m_c1_l2_psw' type='password' placeholder='请输入密码' name='m_c1_l2_psw'><button onclick='m_c1_l2_check()'>提交</button>";
+				title.innerHTML="??-6";
+				div.innerHTML="然而，你发现你把密码给忘了。只有一个提示：<br><br><div style='background-color:#f0f0f0;font-family:consolas;'>6-m3x-otom</div><br><input id='m_c1_l2_psw' type='password' placeholder='6~16位，只能含有字母、数字和“-”' name='m_c1_l2_psw'><button onclick='m_c1_l2_check()'>提交</button>";
 			}
 			function m_c1_l2_check(){
 				var psw=document.getElementById("m_c1_l2_psw").value;
-				if(psw=='dnal-ykoops')m_c1_l3();
-				else div.innerHTML="密码错误，请重新填写。<br><br>提示：<div style='background-color:#f0f0f0;font-family:consolas;'>6-m3x-otom</div><br><input id='m_c1_l2_psw' type='password' placeholder='请输入密码' name='m_c1_l2_psw'><button onclick='m_c1_l2_check()'>提交</button>";
+				if(psw=="dnal-ykoops")m_c1_l3();
+				else div.innerHTML="密码错误，请重新填写。<br><br>提示：<div style='background-color:#f0f0f0;font-family:consolas;'>6-m3x-otom</div><br><input id='m_c1_l2_psw' type='password' placeholder='6~16位，只能含有字母、数字和“-”' name='m_c1_l2_psw'><button onclick='m_c1_l2_check()'>提交</button>";
 			}
 			function m_c1_l3(){
-				div.innerHTML="你花了15分钟才想出来密码是“dnal-ykoops”。你打开微信一看，有一个备注名是“宝贝”的人给你发了这样一条消息：……<br><br><button onclick='m_c1_l4()'>继续</button>";
+				div.innerHTML="在漫长的十五分钟里，你终于解锁了记忆的枷锁，微信界面悄然亮起，一抹不祥的预兆随之浮现——一个标注为“宝贝”的神秘访客，留下了一行字，如同午夜幽灵的低语：<br><br>“亲爱的，你藏在屋内哪个角落呢？我正站在门外，渴望你的笑容照亮这夜色~”<br><br>冷汗悄然滑落，心中泛起阵阵涟漪，你暗自思量：荒谬至极，孤身一人的我，怎会有如此亲昵的称呼留给他人？<br><br>犹豫片刻后，你谨慎地敲下回复，每个字都似乎承载着千钧之重：<br><br>“你是谁？”<br><br>对方的回应，如同寒风中的一声冷笑：“我是许仪青，你的爱人，难道这一切都已随风而逝？”<br><br>震惊之余，疑惑如藤蔓般缠绕心头：女友？一片空白的记忆中何曾有过这般温柔的存在？这究竟是现实，还是编织精密的谎言？<br><br>为了探寻真相，你决定深入虎穴：“或许，我真的迷失在了过往的迷雾中……”<br><br>门轴轻吟，你小心翼翼地推开一道缝隙，时间仿佛在这一刻凝固，随后，勇气驱使你将门全然敞开，迎接未知的风暴。<br><br>一位女子翩然而入，她的声音宛如冬日暖阳：“亲爱的，我是许仪青，难道我在你的世界里，真的消失得无影无踪了吗？”<br><br>你木然回答：“抱歉，我真的想不起。”br><br>她的眼神闪烁着异样的光芒：那么，让我提醒你，今日是11月24日，一个不应被遗忘的日子。”<br><br>心中的困惑如野草般疯长，这名叫许仪青的女子，究竟在编织怎样一场戏码？今日，究竟隐藏着怎样的秘密？<br><br>你故作冷静，吐出几个字：“这一天，有何特别？”<br><br>许仪青脸上闪过一丝黯然，但随即换上了温柔的笑容：“别急，亲爱的。即使记忆的潮水将你卷走，那些根深蒂固的知识与技能，依旧牢牢刻印在你的灵魂深处。而我，从未离开你的世界——请看看这份为你而做的蛋糕，即便它朴素无华。”<br><br>眼前的蛋糕，成了连接过去与现在的唯一线索。你的心中燃起希望的火花：失忆，这便是答案。许仪青，我的爱人，以及这份真挚的情感，都是我遗忘篇章中的真实存在。只是，那令我失去一切记忆的深渊，又隐藏着怎样的秘密呢？<br><br>许仪青温暖的话语再次响起，她指着那份未拆封的蛋糕，眼中闪烁着不容置疑的光芒：“吃吧，让味蕾唤醒沉睡的记忆，而我，会在这里，陪你找回遗落的一切。”<br><br><button onclick='m_c1_l4()'>继续</button>";
 			}
 			function m_c1_l4(){
 				div.innerHTML="你拆了蛋糕，并把它放在餐桌上。<br><br>你切蛋糕切到一半，碰到了一个奇怪的东西。<br><br>你把它拿出来一看，是一个上面啥都没写的易拉罐。<br><br>你捏了捏它，发现这罐子很硬。<br><br>你又把它拿起来，并估计它的质量约为150克。<br><br>【开发中，敬请期待】";
