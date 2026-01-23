@@ -17,3 +17,5 @@ title: 目录：航空安全启示录
 7.[吉姆利滑翔机：AC143的奇迹迫降](/2026/01/17/literary-creation-ac143/)
 
 8.[联合航空232号航班：最后的操纵](/2026/01/17/literary-creation-ua232/)
+
+9.[OA411航班：低语与轰鸣](/2026/01/23/literary-creation-oa411/)
