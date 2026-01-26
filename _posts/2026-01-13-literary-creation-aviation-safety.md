@@ -21,3 +21,5 @@ title: 目录：航空安全启示录
 9.[OA411航班：低语与轰鸣](/2026/01/23/literary-creation-oa411/)
 
 10.[空痕：阿罗哈243号的最后航程](/2026/01/26/literary-creation-aq243/)
+
+11.[绝境双翼：CX780的生死航迹](/2026/01/26/literary-creation-cx780/)
