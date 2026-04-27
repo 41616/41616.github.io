@@ -4,7 +4,7 @@
 
 [各种2048](/2048-games/list.html)！
 
-我自己写的[《航空安全启示录》](/posts/2026/01/13/literary-creation-aviation-safety)！
+我自己写的[《航空安全启示录》](/2026/01/13/literary-creation-aviation-safety)！
 
 <!-- .slide -->
 
