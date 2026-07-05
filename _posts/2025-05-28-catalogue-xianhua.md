@@ -2,7 +2,7 @@
 title: 目录：闲话
 permalink: /xianhua/
 tags:
- - 闲话
+  - 闲话
 ---
 
 1.[2025年5月28日闲话](/xianhua/2025/05/28/)
